@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+* body {
+  background-image: url(/Pictures/berserk.jpg);
+  background-size: cover;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.main-title, h1 {
+  font-family: "Doom";
+  color: white;
+  text-align: center;
+  font-size: 600%;
+  margin-top: 2vh;
+  text-decoration: underline;
+  text-decoration-color: white;
+  letter-spacing: 5px;
+}
+
+.wheel-title {
+  color: white;
+  margin-top: 2vh;
+  font-size: 4vh;
+}
+
+#anadir,
+#kill-button {
+  background-color: transparent;
+  font-size: 2.3vh;
+  font-family: "Doom";
+  letter-spacing: 3px;
+  border-style: none;
+  cursor: pointer;
+  color: white;
+}
+
+#anadir:hover,
+#kill-button:hover {
+  color: red;
+}
+
+#coder {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button-container {
+  margin-left: 9vh;
+}
+
+#listado {
+  background-color: rgba(209, 11, 11, 0.205);
+  border-style: solid;
+  border-color: black;
+  border-width: 0.2vh;
+  margin-top: 3vh;
+  width: 20vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2vh;
+  color: white;
+  line-height: 3.5vh;
+  padding-left: 1vh;
+}
+
+#loosers {
+  background-color: rgba(209, 11, 11, 0.205);
+  border-style: solid;
+  border-color: black;
+  border-width: 0.2vh;
+  margin-top: 3vh;
+  width: 20vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2vh;
+  color: white;
+  line-height: 3.5vh;
+  padding-left: 1vh;
+}
+
+.coders-title {
+  padding-top: 6vh;
+  margin-left: 3vh;
+}
+
+.container-of-containers {
+  display: flex;
+  margin-left: 2vh;
+}
+
+.coders-container,
+.dead-coders-container {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input {
+  height: 3vh;
+  width: 25vh;
+  background-color: rgba(209, 11, 11, 0.205);
+  border-style: solid;
+  border-color: white;
+  font-size: 2vh;
+  color: white;
+  margin-top: 2vh;
+  margin-left: 8vh;
+}
+
+.wheel-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-right: 8vh;
+}
